@@ -81,3 +81,8 @@ header {
     align-items: center;
     cursor: pointer;
 }
+
+.button-container:hover {
+    background-color: #5a81ff;
+    transition: all 0.2s ease;
+}
