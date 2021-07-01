@@ -86,3 +86,93 @@ header {
     background-color: #5a81ff;
     transition: all 0.2s ease;
 }
+
+
+.jobs-list {
+    max-width: 1250px;
+    width: 100%;
+    background-color: #11121A;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px;
+}
+
+.jobs-list h1 {
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.jobs-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    grid-template-rows: repeat(3, 1fr);
+    background: #11121A;
+}
+
+.job-title {
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #fff;
+    padding: 30px;
+    transition: transform 0.2s;
+}
+
+.job-title:hover {
+    transform: scale(1.05)
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top img {
+    width: 50px;
+    height: 50px;
+}
+
+.rolename {
+    padding: 20px 0px;
+}
+
+.rolename span {
+    font-size: 22px;
+}
+
+.description {
+    height: 105px;
+    overflow: hidden;
+    font-size: 18px;
+    color: #96939B
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+}
+
+.button {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: #96969B;
+    background-color: #2E2E39;
+    font-size: 14px;
+}
+
+.apply-now {
+    color: #fff;
+    background-color: #3060FF;
+    margin-right: 15px;
+}
