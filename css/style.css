@@ -120,7 +120,9 @@ header {
     justify-content: flex-start;
     color: #fff;
     padding: 30px;
+    background-color: #222328;
     transition: transform 0.2s;
+    border: 1px solid #4f2f02;
 }
 
 .job-title:hover {
